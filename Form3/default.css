@@ -1,0 +1,164 @@
+
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+		background: #FFF;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 12pt;
+		font-weight: 300;
+		color: #000000;
+		background-image: url("img1.jpg");
+		 background-repeat: repeat; 
+		 text-align:justify;
+	}
+
+	
+	/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header
+	{
+		position: relative;
+				top: -1em;
+	}
+	
+	
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+	
+	#menu{
+    position: absolute;
+    top: 6em;
+    right: 0;
+    border: 3px solid #1c54af;
+}
+	
+	#menu ul
+	{
+		display: flex;
+	}
+	
+	#menu li
+	{
+		display: block;
+		float: left;
+		text-align: center;
+	}
+	
+		#menu li:after
+		{
+			content: "/";
+			padding: 1em 1.5em;
+			font-weight: 700;
+			color: rgba(0,0,0,.6);
+		}
+	
+	#menu li a, #menu li span
+	{
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: 600;
+		font-size: 1em;
+		color: rgba(0,0,0,.4);
+	}
+	
+	#menu li:hover a, #menu li.active a, #menu li.active span
+	{
+		color: rgb(28, 84, 175);
+	}
+	
+	
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner
+	{
+		overflow: hidden;
+		padding: 0em 0em;
+		background-size: cover;
+		border-top: 1px solid rgba(0,0,0,0.08);
+	}
+
+/*********************************************************************************/
+/* Page                                                                          */
+/*********************************************************************************/
+
+	#page
+	{
+		position: relative;
+		overflow: hidden;
+		padding: 3em 0em;
+	}
+
+	/*********************************************************************************/
+/* 3-column                                                                      */
+/*********************************************************************************/
+
+	.boxA,
+	.boxB,
+	.boxC,
+	.boxD
+	{
+		width: 384px;
+		height:384px;
+		text-align: center;
+	}
+
+	.boxA h2,
+	.boxB h2,
+	.boxC h2,
+	.boxD h2
+	{
+		margin-bottom: 1em;
+		font-weight: 600;
+		font-size: 1.6em;
+	}
+
+	.boxA p,
+	.boxB p,
+	.boxC p,
+	.boxD p
+	{
+		padding: 0em 1.5em;
+	}
+
+	.boxA,
+	.boxB,
+	.boxC
+	{
+		float: left;
+		margin-right: 20px;
+	}
+	
+	.boxD
+	{
+		float: left;
+		margin-right: 20px;
+	}
+	
+
+	#contact fieldset { 
+    display: block;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px groove (internal value);
+}
+#location fieldset{
+	  display: block;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px groove (internal value);
+}

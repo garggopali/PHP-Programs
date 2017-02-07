@@ -1,0 +1,78 @@
+<?php
+include('login.php'); // Includes Login Script
+
+?>
+
+<!DOCTYPE html>
+<!--
+Design by Gopali Gopali
+Name       : Guide for New Commers in Sweden 
+-->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>New in Sweden!!</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<!-- <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" /> -->
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<!-- <link href="fonts.css" rel="stylesheet" type="text/css" media="all" /> -->
+
+<!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+
+</head>
+<body>
+<section id="page">
+<header>
+<div id="header" class="container">
+<div id="logo">
+	<font size = "16"><h1 align="center">Expats in Sweden!!</h1></font>
+	</div>
+	<div id="menu">
+		<ul>
+			<li><a href="index.html" accesskey="1" title="">About Us</a></li>
+			<li><a href="#Links" accesskey="3" title="">Links</a></li>
+			<li><a href="#Blog" accesskey="4" title="">Blog</a></li>
+			<li class="active"><a href="contact.html" accesskey="5" title="">Contact Us</a></li>
+			<li><a href="login.html" accesskey="5" title="">Login</a></li>
+		</ul>
+</div>
+</div>
+  </header>
+
+  
+  <h2>Classes registration</h2>
+	  
+        <form action = "register.php" method = "POST">
+ <!-- html comment // for personal information box -->
+		<fieldset> 
+			<legend>Personal information:</legend>
+		 <label>UserName :</label>
+<input id="name" name="username" placeholder="username" type="text">
+<label>Password :</label>
+<input id="password" name="password" placeholder="**********" type="password">
+<input name="submit" type="submit" value=" Login ">
+<span><?php echo $error; ?></span>		 
+		 <h3 align="right"><a href="Register.php"> Not a user?</a></h3>
+		 </fieldset>
+      </form>
+ 
+			
+
+			
+<div id="featured" class="container">
+	<div class="align-left">
+		<span class="fa fa-pagelines"></span>	
+	</div>
+	<div class="align-right">
+		<p>This is <strong>Guide</strong> for new commer's in Sweden:-) </p>	
+	</div>
+</div>
+<div id="copyright" class="container">
+	<p><center>Copyright © 2017 / Design: Gopali Gopali</center></p>
+</div>
+</body>
+</html>
+
+                   
+           
